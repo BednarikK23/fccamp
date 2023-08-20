@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: black;
+            color: white;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            display: block;
+            width: 500px;
+            height: 540px;
+            margin: 50px;
+            padding: 10px;
+            border: 3px solid white;
+            border-radius: 15px;
+        }
+
+        .box {
+            height: 85px;
+            margin: 10px;
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            vertical-align: middle;
+            border: 1px solid white;
+            font-size: large;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container" id="sports">
+        <h1 class="heading">ADD RANDOM SPORT</h1>
+        <div class="box" id="hockey">hockey</div>
+        <div class="box" id="tennis">tennis</div>
+        <div class="box" id="bjj">bjj</div>
+        <div class="box" id="boxing">boxing</div>
+        <div class="box" id="chess">chess</div>
+    </div>
+
+    <script src="event_delegation.js"></script>
+</body>
+
+</html>

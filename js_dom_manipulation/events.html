@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #1c1a70;
+            color: white;
+        }
+
+        #main-heading {
+            text-align: center;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        div {
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .boxes {
+            border: 5px solid white;
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        .hidden-content {
+            display: none;
+        }
+
+        .hidden-content.reveal-btn {
+            display: block;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1 id="main-heading">Event Listeners</h1>
+
+    <div class="container ">
+        <div class="boxes box-1">
+            <h2 id="heading">Example 1</h2>
+            <button class="btn-1" onclick="alert('Hello there.')">
+                Enter
+            </button>
+        </div>
+        <div class="boxes box-2">
+            <h2 id="heading">Example 2</h2>
+            <button class="btn-2">Enter</button>
+        </div>
+        <div class="boxes box-3">
+            <h2 id="heading">Example 3</h2>
+            <button class="btn-3">Enter</button>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <button class="reveal-btn boxes" style="padding: 10px; border: solid 1px white;">Reveal</button>
+        <div class="hidden-content boxes">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum recusandae placeat
+            eum, est debitis laborum maxime architecto harum ipsam quos perferendis voluptas quidem
+            tempora doloremque officiis non a accusantium aperiam?
+        </div>
+    </div>
+
+    <script src="events.js"></script>
+</body>
+
+</html>
