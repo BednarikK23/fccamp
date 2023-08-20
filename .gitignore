@@ -1,0 +1,71 @@
+# Ignore all
+*
+
+# Unignore all dirs
+!*/
+
+# Unignore .c, .h
+!*.c
+!*.cpp
+!*.cu
+!*.cs
+!*.h
+!*.py
+!*.xml
+!*.go
+!*.js
+# !*.txt !*.TXT !*.csv - all these can be forced if needed, no need to be on white list
+# explicitly...
+
+# Unignore markup
+!*.html
+!*.ad
+!*.adoc
+!*.md
+!*.MD
+
+!*.css
+
+# Now ignore build and other temp. or IDE directories
+# which may contain these files
+
+# CLion project settings
+.idea/
+
+# VS
+.vs/
+.vscode/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+*-build/
+cmake-build-debug/
+build/
+_build/
+
+# Qt-es
+object_script.*.Release
+object_script.*.Debug
+*.pro.user.*
+*.qbs.user.*
+*build-*
+
+# Qt unit tests
+target_wrapper.*
+
+# QtCreator Qml
+*.qmlproject.user.*
+
+# QtCreator CMake
+CMakeLists.txt.user*
+
+# QtCreator local machine specific files for imported projects
+*creator.user*
+
+# Unignore .gitignore, .clang-format and .clang-tidy
+!.gitignore
+!.clang-format
+!.clang-tidy
+
+
