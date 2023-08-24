@@ -1,1 +1,1 @@
-Really beatufil language I am really happy  I started learning it, lloking forward to do more lrojects in it.
+Really beatuful language I am really happy I started learning it, loking forward to do more projects in it.
