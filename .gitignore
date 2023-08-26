@@ -14,6 +14,7 @@
 !*.xml
 !*.go
 !*.js
+!*.ts
 # !*.txt !*.TXT !*.csv - all these can be forced if needed, no need to be on white list
 # explicitly...
 
